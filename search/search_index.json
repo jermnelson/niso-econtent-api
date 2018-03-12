@@ -1,0 +1,194 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Flexible API STandard for E-content NISO (FASTEN)\n\n\nDocumentation related to the \nNISO Working Group\n\non a library-vendor interoperability standard using \nREST\nful Web services \nAPI that supports mobile applications. \n\n\nExisting Standards\n\n\nThis document attempts to align potential REST API service points with existing Library and\nInternet standards, with the initial focus being \nResourceSynce\n and \nNCIP\n, both\nexisting NISO standards. Other standards and protocols will be added if/when time permits. \n\n\nAPI Mapping\n\n\nUsing a \npre-existing Google document\n on suggested Best Practices, specific \ntopics are used as a starting point to map to \nResourceSync\n and \nNCIP\n standards.",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-flexible-api-standard-for-e-content-niso-fasten",
+            "text": "Documentation related to the  NISO Working Group \non a library-vendor interoperability standard using  REST ful Web services \nAPI that supports mobile applications.",
+            "title": "Welcome to Flexible API STandard for E-content NISO (FASTEN)"
+        },
+        {
+            "location": "/#existing-standards",
+            "text": "This document attempts to align potential REST API service points with existing Library and\nInternet standards, with the initial focus being  ResourceSynce  and  NCIP , both\nexisting NISO standards. Other standards and protocols will be added if/when time permits.",
+            "title": "Existing Standards"
+        },
+        {
+            "location": "/#api-mapping",
+            "text": "Using a  pre-existing Google document  on suggested Best Practices, specific \ntopics are used as a starting point to map to  ResourceSync  and  NCIP  standards.",
+            "title": "API Mapping"
+        },
+        {
+            "location": "/existing-standards/",
+            "text": "Preexisting Work and Standards\n\n\nResourceSync\n\n\nResourceSync\n is a resource synchronization framework with a \nspecification that is jointly sponsored by \nNISO\n \nand \nOpen Archives\n. \n\n\nNCIP\n\n\nNCIP\n, short for \nNISO\n Circulation Interchange\nProtocol\n, is also known as Z39.83, specifies a standard for \nautomating tasks and data interchange for library circulation \nworkflows.",
+            "title": "Existing Standards"
+        },
+        {
+            "location": "/existing-standards/#preexisting-work-and-standards",
+            "text": "",
+            "title": "Preexisting Work and Standards"
+        },
+        {
+            "location": "/existing-standards/#resourcesync",
+            "text": "ResourceSync  is a resource synchronization framework with a \nspecification that is jointly sponsored by  NISO  \nand  Open Archives .",
+            "title": "ResourceSync"
+        },
+        {
+            "location": "/existing-standards/#ncip",
+            "text": "NCIP , short for  NISO  Circulation Interchange\nProtocol , is also known as Z39.83, specifies a standard for \nautomating tasks and data interchange for library circulation \nworkflows.",
+            "title": "NCIP"
+        },
+        {
+            "location": "/issues/topic-01/",
+            "text": "Path to Resource\n\n\nComments from \nBest Practice Review\n Topic ID #1\n\n\nPath from finding a resource to accessing it should be intuitive, \nseamless and offer few/no barriers to the end user.  The user should \nnot have to leave the environment in which the resource was found. \nThe resource should be displayed within the library catalogue/discovery \nlayer and should not be taken to a third party website, e.g., publisher \nor aggregator site.\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with \nNCIP\n 5.3.2 Lookup Item Service \n\n\n\n\nFASTEN Alignment with \nResourceSync",
+            "title": "Path to Resource"
+        },
+        {
+            "location": "/issues/topic-01/#path-to-resource",
+            "text": "",
+            "title": "Path to Resource"
+        },
+        {
+            "location": "/issues/topic-01/#comments-from-best-practice-review-topic-id-1",
+            "text": "Path from finding a resource to accessing it should be intuitive, \nseamless and offer few/no barriers to the end user.  The user should \nnot have to leave the environment in which the resource was found. \nThe resource should be displayed within the library catalogue/discovery \nlayer and should not be taken to a third party website, e.g., publisher \nor aggregator site.",
+            "title": "Comments from Best Practice Review Topic ID #1"
+        },
+        {
+            "location": "/issues/topic-01/#fasten-alignment-with-ncip",
+            "text": "A  POST  request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with  NCIP  5.3.2 Lookup Item Service",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
+            "location": "/issues/topic-01/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
+        },
+        {
+            "location": "/issues/topic-06/",
+            "text": "DRM Authentication\n\n\nComments from \nBest Practice Review\n Topic ID #6\n\n\nMedia should allow for Library/Open Source readers that allow DRM \nauthentication",
+            "title": "DRM Authentication"
+        },
+        {
+            "location": "/issues/topic-06/#drm-authentication",
+            "text": "",
+            "title": "DRM Authentication"
+        },
+        {
+            "location": "/issues/topic-06/#comments-from-best-practice-review-topic-id-6",
+            "text": "Media should allow for Library/Open Source readers that allow DRM \nauthentication",
+            "title": "Comments from Best Practice Review Topic ID #6"
+        },
+        {
+            "location": "/issues/topic-15/",
+            "text": "Checkouts should apply at the \"title\" level",
+            "title": "Checkouts should apply at the title level"
+        },
+        {
+            "location": "/issues/topic-15/#checkouts-should-apply-at-the-title-level",
+            "text": "",
+            "title": "Checkouts should apply at the \"title\" level"
+        },
+        {
+            "location": "/issues/topic-21/",
+            "text": "Personal patron information\n\n\nComments from \nBest Practice Review\n Topic ID #21\n\n\nNo personal patron information should move from the identity provider \n(or ILS or discovery layer) to a third-party eContent vendor.  That way \nthere's no potential for abuse.",
+            "title": "Personal patron information"
+        },
+        {
+            "location": "/issues/topic-21/#personal-patron-information",
+            "text": "",
+            "title": "Personal patron information"
+        },
+        {
+            "location": "/issues/topic-21/#comments-from-best-practice-review-topic-id-21",
+            "text": "No personal patron information should move from the identity provider \n(or ILS or discovery layer) to a third-party eContent vendor.  That way \nthere's no potential for abuse.",
+            "title": "Comments from Best Practice Review Topic ID #21"
+        },
+        {
+            "location": "/issues/topic-34/",
+            "text": "Searching assumptions for ILS Catalog (loaded into discovery or federated search)\n\n\nComments from \nBest Practice Review\n Topic ID #34\n\n\nSurfacing all matching results in a single interface; having all metadata \navailable to customize as desired. This front-end simplicity for the \nuser may require backend complexity, but this \"simplexity\" is critical, \nand additional technical work by the library is acceptable as long as \nvendors provide a standardized way to do this (with APIs).\n\n\nFASTEN Alignment with \nResourceSync",
+            "title": "Searching assumptions for ILS Catalog"
+        },
+        {
+            "location": "/issues/topic-34/#searching-assumptions-for-ils-catalog-loaded-into-discovery-or-federated-search",
+            "text": "",
+            "title": "Searching assumptions for ILS Catalog (loaded into discovery or federated search)"
+        },
+        {
+            "location": "/issues/topic-34/#comments-from-best-practice-review-topic-id-34",
+            "text": "Surfacing all matching results in a single interface; having all metadata \navailable to customize as desired. This front-end simplicity for the \nuser may require backend complexity, but this \"simplexity\" is critical, \nand additional technical work by the library is acceptable as long as \nvendors provide a standardized way to do this (with APIs).",
+            "title": "Comments from Best Practice Review Topic ID #34"
+        },
+        {
+            "location": "/issues/topic-34/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
+        },
+        {
+            "location": "/issues/topic-38/",
+            "text": "Web awareness of Library System\n\n\nThe vendor systems should provide robot.txt for indexing by \n\nGoogle\n,  \nBing\n, and \nother web indexers\n\n\nComments from \nBest Practice Review\n Topic ID #38\n\n\nAs much as possible, the patrons should be using or taken to a \nlibrary-branded interface so they are not concerned with privacy or \nquality issues.\n\n\nLibrary applications should have specialized SEO APIs that can be \nused to generate robots.txt and meta tags for increased SEO \nfriendliness of OPAC and Discovery layers.\n\n\nFASTEN Alignment with \nResourceSync\n\n\nAs \nResourceSync\n extends the \nSitemap\n \nprotocol, the FASTEN recommendation is to support the following REST verbs:\n\n\n\n\nA \nGET\n request for \n/sitemap.xml\n returns a valid and \n    well-formed xml document containing urls to available resources\n\n\nA \nGET\n request for \n/sitemapindex.xml\n returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
+            "title": "Lack of web awareness"
+        },
+        {
+            "location": "/issues/topic-38/#web-awareness-of-library-system",
+            "text": "The vendor systems should provide robot.txt for indexing by  Google ,   Bing , and \nother web indexers",
+            "title": "Web awareness of Library System"
+        },
+        {
+            "location": "/issues/topic-38/#comments-from-best-practice-review-topic-id-38",
+            "text": "As much as possible, the patrons should be using or taken to a \nlibrary-branded interface so they are not concerned with privacy or \nquality issues.  Library applications should have specialized SEO APIs that can be \nused to generate robots.txt and meta tags for increased SEO \nfriendliness of OPAC and Discovery layers.",
+            "title": "Comments from Best Practice Review Topic ID #38"
+        },
+        {
+            "location": "/issues/topic-38/#fasten-alignment-with-resourcesync",
+            "text": "As  ResourceSync  extends the  Sitemap  \nprotocol, the FASTEN recommendation is to support the following REST verbs:   A  GET  request for  /sitemap.xml  returns a valid and \n    well-formed xml document containing urls to available resources  A  GET  request for  /sitemapindex.xml  returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
+            "title": "FASTEN Alignment with ResourceSync"
+        },
+        {
+            "location": "/issues/topic-39/",
+            "text": "Persistence of Curation Data\n\n\nIf an e-resource is coming from a curated collection, information about the curation should not be lost to the catalog display.\n\n\nComments from \nBest Practice Review\n Topic ID #39\n\n\nIf we are paying for content (including metadata) available on the vendor's\nproprietary site, we should be able to move that data to our portal. \n\n\nFor example, \nBiblioBoard\n provides categories \nand \nFreegal\n provides lists such as \n\"top 10 artists.\" Both of these are not available outside their \nproprietary systems.\n\n\nFASTEN Alignment with",
+            "title": "Persistence of Curation Data"
+        },
+        {
+            "location": "/issues/topic-39/#persistence-of-curation-data",
+            "text": "If an e-resource is coming from a curated collection, information about the curation should not be lost to the catalog display.",
+            "title": "Persistence of Curation Data"
+        },
+        {
+            "location": "/issues/topic-39/#comments-from-best-practice-review-topic-id-39",
+            "text": "If we are paying for content (including metadata) available on the vendor's\nproprietary site, we should be able to move that data to our portal.   For example,  BiblioBoard  provides categories \nand  Freegal  provides lists such as \n\"top 10 artists.\" Both of these are not available outside their \nproprietary systems.",
+            "title": "Comments from Best Practice Review Topic ID #39"
+        },
+        {
+            "location": "/issues/topic-39/#fasten-alignment-with",
+            "text": "",
+            "title": "FASTEN Alignment with"
+        },
+        {
+            "location": "/issues/topic-48/",
+            "text": "Replace Patron Barcode\n\n\nComments from \nBest Practice Review\n Topic ID\n\n\nAPIs should make the transition from one card to another (assuring \nsecurity in case of stolen cards)  seamless, allowing content from \nan earlier library barcode to remain in the account even if the barcode \nis updated.",
+            "title": "Replace Patron Barcode"
+        },
+        {
+            "location": "/issues/topic-48/#replace-patron-barcode",
+            "text": "",
+            "title": "Replace Patron Barcode"
+        },
+        {
+            "location": "/issues/topic-48/#comments-from-best-practice-review-topic-id",
+            "text": "APIs should make the transition from one card to another (assuring \nsecurity in case of stolen cards)  seamless, allowing content from \nan earlier library barcode to remain in the account even if the barcode \nis updated.",
+            "title": "Comments from Best Practice Review Topic ID"
+        },
+        {
+            "location": "/references/",
+            "text": "References\n\n\nQueen's Library \nAPI document\n is the foundation for the NISO\nFASTEN working group's deliverables.",
+            "title": "References"
+        },
+        {
+            "location": "/references/#references",
+            "text": "Queen's Library  API document  is the foundation for the NISO\nFASTEN working group's deliverables.",
+            "title": "References"
+        }
+    ]
+}
