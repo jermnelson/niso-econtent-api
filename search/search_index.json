@@ -67,7 +67,7 @@
         },
         {
             "location": "/issues/topic-06/",
-            "text": "DRM Authentication\n\n\nComments from \nBest Practice Review\n Topic ID #6\n\n\nMedia should allow for Library/Open Source readers that allow DRM \nauthentication",
+            "text": "DRM Authentication\n\n\nComments from \nBest Practice Review\n Topic ID #6\n\n\nMedia should allow for Library/Open Source readers that allow DRM \nauthentication\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "DRM Authentication"
         },
         {
@@ -81,18 +81,38 @@
             "title": "Comments from Best Practice Review Topic ID #6"
         },
         {
+            "location": "/issues/topic-06/#fasten-alignment-with-ncip",
+            "text": "",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
+            "location": "/issues/topic-06/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
+        },
+        {
             "location": "/issues/topic-15/",
-            "text": "Checkouts should apply at the \"title\" level",
+            "text": "Checkouts should apply at the \"title\" level\n\n\nThis references Topic 16 from the \nBest Practices\n document.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Checkouts should apply at the title level"
         },
         {
             "location": "/issues/topic-15/#checkouts-should-apply-at-the-title-level",
-            "text": "",
+            "text": "This references Topic 16 from the  Best Practices  document.",
             "title": "Checkouts should apply at the \"title\" level"
         },
         {
+            "location": "/issues/topic-15/#fasten-alignment-with-ncip",
+            "text": "",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
+            "location": "/issues/topic-15/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
+        },
+        {
             "location": "/issues/topic-21/",
-            "text": "Personal patron information\n\n\nComments from \nBest Practice Review\n Topic ID #21\n\n\nNo personal patron information should move from the identity provider \n(or ILS or discovery layer) to a third-party eContent vendor.  That way \nthere's no potential for abuse.",
+            "text": "Personal patron information\n\n\nComments from \nBest Practice Review\n Topic ID #21\n\n\nNo personal patron information should move from the identity provider \n(or ILS or discovery layer) to a third-party eContent vendor.  That way \nthere's no potential for abuse.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Personal patron information"
         },
         {
@@ -106,8 +126,18 @@
             "title": "Comments from Best Practice Review Topic ID #21"
         },
         {
+            "location": "/issues/topic-21/#fasten-alignment-with-ncip",
+            "text": "",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
+            "location": "/issues/topic-21/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
+        },
+        {
             "location": "/issues/topic-34/",
-            "text": "Searching assumptions for ILS Catalog (loaded into discovery or federated search)\n\n\nComments from \nBest Practice Review\n Topic ID #34\n\n\nSurfacing all matching results in a single interface; having all metadata \navailable to customize as desired. This front-end simplicity for the \nuser may require backend complexity, but this \"simplexity\" is critical, \nand additional technical work by the library is acceptable as long as \nvendors provide a standardized way to do this (with APIs).\n\n\nFASTEN Alignment with \nResourceSync",
+            "text": "Searching assumptions for ILS Catalog (loaded into discovery or federated search)\n\n\nComments from \nBest Practice Review\n Topic ID #34\n\n\nSurfacing all matching results in a single interface; having all metadata \navailable to customize as desired. This front-end simplicity for the \nuser may require backend complexity, but this \"simplexity\" is critical, \nand additional technical work by the library is acceptable as long as \nvendors provide a standardized way to do this (with APIs).\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Searching assumptions for ILS Catalog"
         },
         {
@@ -121,13 +151,18 @@
             "title": "Comments from Best Practice Review Topic ID #34"
         },
         {
+            "location": "/issues/topic-34/#fasten-alignment-with-ncip",
+            "text": "",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
             "location": "/issues/topic-34/#fasten-alignment-with-resourcesync",
             "text": "",
             "title": "FASTEN Alignment with ResourceSync"
         },
         {
             "location": "/issues/topic-38/",
-            "text": "Web awareness of Library System\n\n\nThe vendor systems should provide robot.txt for indexing by \n\nGoogle\n,  \nBing\n, and \nother web indexers\n\n\nComments from \nBest Practice Review\n Topic ID #38\n\n\nAs much as possible, the patrons should be using or taken to a \nlibrary-branded interface so they are not concerned with privacy or \nquality issues.\n\n\nLibrary applications should have specialized SEO APIs that can be \nused to generate robots.txt and meta tags for increased SEO \nfriendliness of OPAC and Discovery layers.\n\n\nFASTEN Alignment with \nResourceSync\n\n\nAs \nResourceSync\n extends the \nSitemap\n \nprotocol, the FASTEN recommendation is to support the following REST verbs:\n\n\n\n\nA \nGET\n request for \n/sitemap.xml\n returns a valid and \n    well-formed xml document containing urls to available resources\n\n\nA \nGET\n request for \n/sitemapindex.xml\n returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
+            "text": "Web awareness of Library System\n\n\nThe vendor systems should provide robot.txt for indexing by \n\nGoogle\n,  \nBing\n, and \nother web indexers\n\n\nComments from \nBest Practice Review\n Topic ID #38\n\n\nAs much as possible, the patrons should be using or taken to a \nlibrary-branded interface so they are not concerned with privacy or \nquality issues.\n\n\nLibrary applications should have specialized SEO APIs that can be \nused to generate robots.txt and meta tags for increased SEO \nfriendliness of OPAC and Discovery layers.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync\n\n\nAs \nResourceSync\n extends the \nSitemap\n \nprotocol, the FASTEN recommendation is to support the following REST verbs:\n\n\n\n\nA \nGET\n request for \n/sitemap.xml\n returns a valid and \n    well-formed xml document containing urls to available resources\n\n\nA \nGET\n request for \n/sitemapindex.xml\n returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
             "title": "Lack of web awareness"
         },
         {
@@ -141,13 +176,18 @@
             "title": "Comments from Best Practice Review Topic ID #38"
         },
         {
+            "location": "/issues/topic-38/#fasten-alignment-with-ncip",
+            "text": "",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
             "location": "/issues/topic-38/#fasten-alignment-with-resourcesync",
             "text": "As  ResourceSync  extends the  Sitemap  \nprotocol, the FASTEN recommendation is to support the following REST verbs:   A  GET  request for  /sitemap.xml  returns a valid and \n    well-formed xml document containing urls to available resources  A  GET  request for  /sitemapindex.xml  returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
             "title": "FASTEN Alignment with ResourceSync"
         },
         {
             "location": "/issues/topic-39/",
-            "text": "Persistence of Curation Data\n\n\nIf an e-resource is coming from a curated collection, information about the curation should not be lost to the catalog display.\n\n\nComments from \nBest Practice Review\n Topic ID #39\n\n\nIf we are paying for content (including metadata) available on the vendor's\nproprietary site, we should be able to move that data to our portal. \n\n\nFor example, \nBiblioBoard\n provides categories \nand \nFreegal\n provides lists such as \n\"top 10 artists.\" Both of these are not available outside their \nproprietary systems.\n\n\nFASTEN Alignment with",
+            "text": "Persistence of Curation Data\n\n\nIf an e-resource is coming from a curated collection, information about the curation should not be lost to the catalog display.\n\n\nComments from \nBest Practice Review\n Topic ID #39\n\n\nIf we are paying for content (including metadata) available on the vendor's\nproprietary site, we should be able to move that data to our portal. \n\n\nFor example, \nBiblioBoard\n provides categories \nand \nFreegal\n provides lists such as \n\"top 10 artists.\" Both of these are not available outside their \nproprietary systems.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Persistence of Curation Data"
         },
         {
@@ -161,13 +201,18 @@
             "title": "Comments from Best Practice Review Topic ID #39"
         },
         {
-            "location": "/issues/topic-39/#fasten-alignment-with",
+            "location": "/issues/topic-39/#fasten-alignment-with-ncip",
             "text": "",
-            "title": "FASTEN Alignment with"
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
+            "location": "/issues/topic-39/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
         },
         {
             "location": "/issues/topic-48/",
-            "text": "Replace Patron Barcode\n\n\nComments from \nBest Practice Review\n Topic ID\n\n\nAPIs should make the transition from one card to another (assuring \nsecurity in case of stolen cards)  seamless, allowing content from \nan earlier library barcode to remain in the account even if the barcode \nis updated.",
+            "text": "Replace Patron Barcode\n\n\nComments from \nBest Practice Review\n Topic ID #48\n\n\nAPIs should make the transition from one card to another (assuring \nsecurity in case of stolen cards)  seamless, allowing content from \nan earlier library barcode to remain in the account even if the barcode \nis updated.  \n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Replace Patron Barcode"
         },
         {
@@ -176,9 +221,19 @@
             "title": "Replace Patron Barcode"
         },
         {
-            "location": "/issues/topic-48/#comments-from-best-practice-review-topic-id",
+            "location": "/issues/topic-48/#comments-from-best-practice-review-topic-id-48",
             "text": "APIs should make the transition from one card to another (assuring \nsecurity in case of stolen cards)  seamless, allowing content from \nan earlier library barcode to remain in the account even if the barcode \nis updated.",
-            "title": "Comments from Best Practice Review Topic ID"
+            "title": "Comments from Best Practice Review Topic ID #48"
+        },
+        {
+            "location": "/issues/topic-48/#fasten-alignment-with-ncip",
+            "text": "",
+            "title": "FASTEN Alignment with NCIP"
+        },
+        {
+            "location": "/issues/topic-48/#fasten-alignment-with-resourcesync",
+            "text": "",
+            "title": "FASTEN Alignment with ResourceSync"
         },
         {
             "location": "/references/",
