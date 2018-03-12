@@ -1,0 +1,16 @@
+site_name: FASTEN 
+pages:
+    - Home: index.md
+    - Existing Standards: existing-standards.md
+    - API Mapping:
+        - 'Path to Resource': 'issues/topic-01.md'
+        - 'DRM Authentication': 'issues/topic-06.md'
+        - 'Checkouts should apply at the title level': 'issues/topic-15.md'
+        - 'Personal patron information': 'issues/topic-21.md'
+        - 'Searching assumptions for ILS Catalog': 'issues/topic-34.md'
+        - 'Lack of web awareness': 'issues/topic-38.md'
+        - 'Persistence of Curation Data': 'issues/topic-39.md'
+        - 'Replace Patron Barcode': 'issues/topic-48.md' 
+    - References: references.md
+    
+theme: readthedocs
