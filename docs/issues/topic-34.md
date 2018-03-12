@@ -7,6 +7,7 @@ user may require backend complexity, but this "simplexity" is critical,
 and additional technical work by the library is acceptable as long as 
 vendors provide a standardized way to do this (with APIs).
 
+## FASTEN Alignment with [NCIP][NCIP]
 
 ## FASTEN Alignment with [ResourceSync][RS]
 

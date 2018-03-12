@@ -12,6 +12,8 @@ Library applications should have specialized SEO APIs that can be
 used to generate robots.txt and meta tags for increased SEO 
 friendliness of OPAC and Discovery layers.
 
+## FASTEN Alignment with [NCIP][NCIP]
+
 ## FASTEN Alignment with [ResourceSync][RS]
 As [ResourceSync][RS] extends the [Sitemap](https://www.sitemaps.org/protocol.html) 
 protocol, the FASTEN recommendation is to support the following REST verbs:
@@ -22,6 +24,6 @@ protocol, the FASTEN recommendation is to support the following REST verbs:
     and wel-formed xml document listing all of the available site maps
     published by the vendor. 
 
-
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
+[NCIP]: http://www.ncip.info/
 [RS]: http://www.openarchives.org/rs/toc
