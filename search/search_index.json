@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to Flexible API STandard for E-content NISO (FASTEN)\n\n\nDocumentation related to the \nNISO Working Group\n\non a library-vendor interoperability standard using \nREST\nful Web services \nAPI that supports mobile applications. \n\n\nExisting Standards\n\n\nThis document attempts to align potential REST API service points with existing Library and\nInternet standards, with the initial focus being \nResourceSynce\n and \nNCIP\n, both\nexisting NISO standards. Other standards and protocols will be added if/when time permits. \n\n\nAPI Mapping\n\n\nUsing a \npre-existing Google document\n on suggested Best Practices, specific \ntopics are used as a starting point to map to \nResourceSync\n and \nNCIP\n standards.",
+            "text": "Welcome to Flexible API STandard for E-content NISO (FASTEN)\n\n\nDocumentation related to the \nNISO Working Group\n\non a library-vendor interoperability standard using \nREST\nful Web services \nAPI that supports mobile applications. \n\n\nExisting Standards\n\n\nThis document attempts to align potential REST API service points with existing Library and\nInternet standards, with the initial focus being \nResourceSync\n and \nNCIP\n, both\nexisting NISO standards. Other standards and protocols will be added if/when time permits. \n\n\nAPI Mapping\n\n\nUsing a \npre-existing Google document\n on suggested Best Practices, specific \ntopics are used as a starting point to map to \nResourceSync\n and \nNCIP\n standards.",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#existing-standards",
-            "text": "This document attempts to align potential REST API service points with existing Library and\nInternet standards, with the initial focus being  ResourceSynce  and  NCIP , both\nexisting NISO standards. Other standards and protocols will be added if/when time permits.",
+            "text": "This document attempts to align potential REST API service points with existing Library and\nInternet standards, with the initial focus being  ResourceSync  and  NCIP , both\nexisting NISO standards. Other standards and protocols will be added if/when time permits.",
             "title": "Existing Standards"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "location": "/issues/topic-01/",
-            "text": "Path to Resource\n\n\nComments from \nBest Practice Review\n Topic ID #1\n\n\nPath from finding a resource to accessing it should be intuitive, \nseamless and offer few/no barriers to the end user.  The user should \nnot have to leave the environment in which the resource was found. \nThe resource should be displayed within the library catalogue/discovery \nlayer and should not be taken to a third party website, e.g., publisher \nor aggregator site.\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with \nNCIP\n 5.3.2 Lookup Item Service \n\n\n\n\nFASTEN Alignment with \nResourceSync",
+            "text": "Path to Resource\n\n\nComments from \nBest Practice Review\n Topic ID #1\n\n\nPath from finding a resource to accessing it should be intuitive, \nseamless and offer few/no barriers to the end user.  The user should \nnot have to leave the environment in which the resource was found. \nThe resource should be displayed within the library catalogue/discovery \nlayer and should not be taken to a third party website, e.g., publisher \nor aggregator site.\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with \nNCIP\n \n    [5.3.2 Lookup Item Service]((http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)\n\n\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Path to Resource"
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "location": "/issues/topic-01/#fasten-alignment-with-ncip",
-            "text": "A  POST  request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with  NCIP  5.3.2 Lookup Item Service",
+            "text": "A  POST  request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with  NCIP  \n    [5.3.2 Lookup Item Service]((http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)",
             "title": "FASTEN Alignment with NCIP"
         },
         {
@@ -67,7 +67,7 @@
         },
         {
             "location": "/issues/topic-06/",
-            "text": "DRM Authentication\n\n\nComments from \nBest Practice Review\n Topic ID #6\n\n\nMedia should allow for Library/Open Source readers that allow DRM \nauthentication\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
+            "text": "DRM Authentication\n\n\nComments from \nBest Practice Review\n Topic ID #6\n\n\nMedia should allow for Library/Open Source readers that allow DRM \nauthentication\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request to a \n5.4.3 Check-out Item Service\n returns a\n    Problem response of \nRequired Item Use Restriction Type\n or\n    a \nRequired Fee Amount",
             "title": "DRM Authentication"
         },
         {
@@ -82,27 +82,22 @@
         },
         {
             "location": "/issues/topic-06/#fasten-alignment-with-ncip",
-            "text": "",
+            "text": "A  POST  request to a  5.4.3 Check-out Item Service  returns a\n    Problem response of  Required Item Use Restriction Type  or\n    a  Required Fee Amount",
             "title": "FASTEN Alignment with NCIP"
         },
         {
-            "location": "/issues/topic-06/#fasten-alignment-with-resourcesync",
-            "text": "",
-            "title": "FASTEN Alignment with ResourceSync"
-        },
-        {
             "location": "/issues/topic-15/",
-            "text": "Checkouts should apply at the \"title\" level\n\n\nThis references Topic 16 from the \nBest Practices\n document.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
+            "text": "Checkouts should apply at the \"title\" level\n\n\nThis references Topic 16 from the \nBest Practices\n document.\n(A \"title\" in this context may be better understood in a Linked-Data\ncontext as a BIBFRAME Item).\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request to a \n5.4.3 Check-out Item Service\n\n   with a [NISO][NISO] User Id or Authentication Input and an Item Id\n\n   returns an \nItem Id\n, \nUser id\n, and ether a \nDate Due\n, \nIndeterminate Loan Period Flag\n, or \nNon Returnable Flag\n. \n\n\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Checkouts should apply at the title level"
         },
         {
             "location": "/issues/topic-15/#checkouts-should-apply-at-the-title-level",
-            "text": "This references Topic 16 from the  Best Practices  document.",
+            "text": "This references Topic 16 from the  Best Practices  document.\n(A \"title\" in this context may be better understood in a Linked-Data\ncontext as a BIBFRAME Item).",
             "title": "Checkouts should apply at the \"title\" level"
         },
         {
             "location": "/issues/topic-15/#fasten-alignment-with-ncip",
-            "text": "",
+            "text": "A  POST  request to a  5.4.3 Check-out Item Service \n   with a [NISO][NISO] User Id or Authentication Input and an Item Id \n   returns an  Item Id ,  User id , and ether a  Date Due ,  Indeterminate Loan Period Flag , or  Non Returnable Flag .",
             "title": "FASTEN Alignment with NCIP"
         },
         {
@@ -112,7 +107,7 @@
         },
         {
             "location": "/issues/topic-21/",
-            "text": "Personal patron information\n\n\nComments from \nBest Practice Review\n Topic ID #21\n\n\nNo personal patron information should move from the identity provider \n(or ILS or discovery layer) to a third-party eContent vendor.  That way \nthere's no potential for abuse.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync",
+            "text": "Personal patron information\n\n\nComments from \nBest Practice Review\n Topic ID #21\n\n\nNo personal patron information should move from the identity provider \n(or ILS or discovery layer) to a third-party eContent vendor.  That way \nthere's no potential for abuse.\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request with a \nNCIP\n User Id or Authentication Input with optional\n    data is restricted to outputs defined in \n    \n5.3.4 Lookup User Service\n. \n\n\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Personal patron information"
         },
         {
@@ -127,7 +122,7 @@
         },
         {
             "location": "/issues/topic-21/#fasten-alignment-with-ncip",
-            "text": "",
+            "text": "A  POST  request with a  NCIP  User Id or Authentication Input with optional\n    data is restricted to outputs defined in \n     5.3.4 Lookup User Service .",
             "title": "FASTEN Alignment with NCIP"
         },
         {
@@ -162,7 +157,7 @@
         },
         {
             "location": "/issues/topic-38/",
-            "text": "Web awareness of Library System\n\n\nThe vendor systems should provide robot.txt for indexing by \n\nGoogle\n,  \nBing\n, and \nother web indexers\n\n\nComments from \nBest Practice Review\n Topic ID #38\n\n\nAs much as possible, the patrons should be using or taken to a \nlibrary-branded interface so they are not concerned with privacy or \nquality issues.\n\n\nLibrary applications should have specialized SEO APIs that can be \nused to generate robots.txt and meta tags for increased SEO \nfriendliness of OPAC and Discovery layers.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync\n\n\nAs \nResourceSync\n extends the \nSitemap\n \nprotocol, the FASTEN recommendation is to support the following REST verbs:\n\n\n\n\nA \nGET\n request for \n/sitemap.xml\n returns a valid and \n    well-formed xml document containing urls to available resources\n\n\nA \nGET\n request for \n/sitemapindex.xml\n returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
+            "text": "Web awareness of Library System\n\n\nThe vendor systems should provide robot.txt for indexing by \n\nGoogle\n,  \nBing\n, and \nother web indexers\n\n\nComments from \nBest Practice Review\n Topic ID #38\n\n\nAs much as possible, the patrons should be using or taken to a \nlibrary-branded interface so they are not concerned with privacy or \nquality issues.\n\n\nLibrary applications should have specialized SEO APIs that can be \nused to generate robots.txt and meta tags for increased SEO \nfriendliness of OPAC and Discovery layers.\n\n\nFASTEN Alignment with \nNCIP\n\n\nFASTEN Alignment with \nResourceSync\n\n\nAs \nResourceSync\n extends the \nSitemap\n \nprotocol, the FASTEN recommendation is to support the following REST verbs:\n\n\n\n\nA \nGET\n request for \n/robots.txt\n returns a text file that links to the \n    \n/sitemap.xml\n, \nsource\n\n\nA \nGET\n request for \n/sitemap.xml\n returns a valid and \n    well-formed xml document containing urls to available resources\n\n\nA \nGET\n request for \n/sitemapindex.xml\n returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
             "title": "Lack of web awareness"
         },
         {
@@ -182,7 +177,7 @@
         },
         {
             "location": "/issues/topic-38/#fasten-alignment-with-resourcesync",
-            "text": "As  ResourceSync  extends the  Sitemap  \nprotocol, the FASTEN recommendation is to support the following REST verbs:   A  GET  request for  /sitemap.xml  returns a valid and \n    well-formed xml document containing urls to available resources  A  GET  request for  /sitemapindex.xml  returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
+            "text": "As  ResourceSync  extends the  Sitemap  \nprotocol, the FASTEN recommendation is to support the following REST verbs:   A  GET  request for  /robots.txt  returns a text file that links to the \n     /sitemap.xml ,  source  A  GET  request for  /sitemap.xml  returns a valid and \n    well-formed xml document containing urls to available resources  A  GET  request for  /sitemapindex.xml  returns a valid\n    and wel-formed xml document listing all of the available site maps\n    published by the vendor.",
             "title": "FASTEN Alignment with ResourceSync"
         },
         {

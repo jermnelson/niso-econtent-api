@@ -169,6 +169,8 @@ friendliness of OPAC and Discovery layers.</p>
 <p>As <a href="http://www.openarchives.org/rs/toc">ResourceSync</a> extends the <a href="https://www.sitemaps.org/protocol.html">Sitemap</a> 
 protocol, the FASTEN recommendation is to support the following REST verbs:</p>
 <ul>
+<li>A <strong>GET</strong> request for <code>/robots.txt</code> returns a text file that links to the 
+    <code>/sitemap.xml</code>, <a href="http://www.openarchives.org/rs/1.1/resourcesync#robots">source</a></li>
 <li>A <strong>GET</strong> request for <code>/sitemap.xml</code> returns a valid and 
     well-formed xml document containing urls to available resources</li>
 <li>A <strong>GET</strong> request for <code>/sitemapindex.xml</code> returns a valid
