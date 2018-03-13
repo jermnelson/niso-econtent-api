@@ -6,7 +6,10 @@ authentication
 
 ## FASTEN Alignment with [NCIP][NCIP]
 
-## FASTEN Alignment with [ResourceSync][RS]
+*   A **POST** request to a [5.4.3 Check-out Item Service](http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=16) returns a
+    Problem response of *Required Item Use Restriction Type* or
+    a *Required Fee Amount* 
+
 
 
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/

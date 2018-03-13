@@ -11,7 +11,8 @@ or aggregator site.
 ## FASTEN Alignment with [NCIP][NCIP]
 
 *   A **POST** request with an NCIP Item Id or Request Id and returns optional
-    data by requesting agent. Aligns with [NCIP][NCIP] 5.3.2 Lookup Item Service 
+    data by requesting agent. Aligns with [NCIP][NCIP] 
+    [5.3.2 Lookup Item Service](http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)
 
 
 ## FASTEN Alignment with [ResourceSync][RS]
