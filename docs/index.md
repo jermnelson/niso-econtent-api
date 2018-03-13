@@ -7,7 +7,7 @@ API that supports mobile applications.
 
 ## Existing Standards
 This document attempts to align potential REST API service points with existing Library and
-Internet standards, with the initial focus being [ResourceSynce][RS] and [NCIP][NCIP], both
+Internet standards, with the initial focus being [ResourceSync][RS] and [NCIP][NCIP], both
 existing NISO standards. Other standards and protocols will be added if/when time permits. 
 
 ## API Mapping 

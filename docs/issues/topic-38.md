@@ -18,11 +18,14 @@ friendliness of OPAC and Discovery layers.
 As [ResourceSync][RS] extends the [Sitemap](https://www.sitemaps.org/protocol.html) 
 protocol, the FASTEN recommendation is to support the following REST verbs:
 
+*   A **GET** request for `/robots.txt` returns a text file that links to the 
+    `/sitemap.xml`, [source](http://www.openarchives.org/rs/1.1/resourcesync#robots)
 *   A **GET** request for `/sitemap.xml` returns a valid and 
     well-formed xml document containing urls to available resources
 *   A **GET** request for `/sitemapindex.xml` returns a valid
     and wel-formed xml document listing all of the available site maps
     published by the vendor. 
+
 
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
 [NCIP]: http://www.ncip.info/
