@@ -42,7 +42,7 @@
         },
         {
             "location": "/issues/topic-01/",
-            "text": "Path to Resource\n\n\nComments from \nBest Practice Review\n Topic ID #1\n\n\nPath from finding a resource to accessing it should be intuitive, \nseamless and offer few/no barriers to the end user.  The user should \nnot have to leave the environment in which the resource was found. \nThe resource should be displayed within the library catalogue/discovery \nlayer and should not be taken to a third party website, e.g., publisher \nor aggregator site.\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with \nNCIP\n \n    [5.3.2 Lookup Item Service]((http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)\n\n\n\n\nFASTEN Alignment with \nResourceSync",
+            "text": "Path to Resource\n\n\nComments from \nBest Practice Review\n Topic ID #1\n\n\nPath from finding a resource to accessing it should be intuitive, \nseamless and offer few/no barriers to the end user.  The user should \nnot have to leave the environment in which the resource was found. \nThe resource should be displayed within the library catalogue/discovery \nlayer and should not be taken to a third party website, e.g., publisher \nor aggregator site.\n\n\nFASTEN Alignment with \nNCIP\n\n\n\n\nA \nPOST\n request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with \nNCIP\n \n    \n5.3.2 Lookup Item Service\n\n\n\n\nFASTEN Alignment with \nResourceSync",
             "title": "Path to Resource"
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "location": "/issues/topic-01/#fasten-alignment-with-ncip",
-            "text": "A  POST  request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with  NCIP  \n    [5.3.2 Lookup Item Service]((http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)",
+            "text": "A  POST  request with an NCIP Item Id or Request Id and returns optional\n    data by requesting agent. Aligns with  NCIP  \n     5.3.2 Lookup Item Service",
             "title": "FASTEN Alignment with NCIP"
         },
         {
