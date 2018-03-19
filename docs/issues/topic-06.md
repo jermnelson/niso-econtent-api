@@ -10,9 +10,17 @@ authentication
     Problem response of *Required Item Use Restriction Type* or
     a *Required Fee Amount* 
 
+## FASTEN Alignment with [OpenID][OID]
 
+*   A **GET** request to the system with either a `code`, `token`, or `id_token` to an authorization
+    server will return a `access_token`, `token_type`, `id_token`, and an optional `expires_in`.
+    From this [5. Definitions of Multiple-Valued Response Type Combinations](http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html#rfc.section.5). If user is not authorized to access the resource, a `None` response is given.
+
+## FASTEN Alignment with [ResourceSync][RS]
+Not applicable
 
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
+[OID]:  https://openid.net/
 [NCIP]: http://www.ncip.info/ 
 [RS]: http://www.openarchives.org/rs/toc
 

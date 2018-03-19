@@ -13,6 +13,10 @@ used to generate robots.txt and meta tags for increased SEO
 friendliness of OPAC and Discovery layers.
 
 ## FASTEN Alignment with [NCIP][NCIP]
+Not applicable
+
+## FASTEN Alignment with [OpenID][OID]
+Not applicable
 
 ## FASTEN Alignment with [ResourceSync][RS]
 As [ResourceSync][RS] extends the [Sitemap](https://www.sitemaps.org/protocol.html) 
@@ -29,4 +33,5 @@ protocol, the FASTEN recommendation is to support the following REST verbs:
 
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
 [NCIP]: http://www.ncip.info/
+[OID]:  https://openid.net/
 [RS]: http://www.openarchives.org/rs/toc

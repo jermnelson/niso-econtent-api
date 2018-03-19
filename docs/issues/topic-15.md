@@ -10,9 +10,14 @@ context as a BIBFRAME Item).
    with a [NISO][NISO] User Id or Authentication Input and an Item Id  
    returns an *Item Id*, *User id*, and ether a *Date Due*, *Indeterminate Loan Period Flag*, or *Non Returnable Flag*. 
 
+## FASTEN Alignment with [OpenID][OID]
+Not applicable
+
 ## FASTEN Alignment with [ResourceSync][RS]
+Not applicable
 
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
 [NCIP]: http://www.ncip.info/ 
+[OID]: https://openid.net/
 [RS]: http://www.openarchives.org/rs/toc
 

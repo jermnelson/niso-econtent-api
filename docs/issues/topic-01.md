@@ -14,10 +14,18 @@ or aggregator site.
     data by requesting agent. Aligns with [NCIP][NCIP] 
     [5.3.2 Lookup Item Service](http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)
 
+## FASTEN Alignment with [OpenID][OID]
+
+Not applicable
 
 ## FASTEN Alignment with [ResourceSync][RS]
 
+*   A **GET** request to a resource linked from a `/sitemap.xml` should be a url with a stable and
+    seemless path.
+    
+
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
+[OID]:  https://openid.net/
 [NCIP]: http://www.ncip.info/ 
 [RS]: http://www.openarchives.org/rs/toc
 

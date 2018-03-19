@@ -13,8 +13,14 @@ proprietary systems.
 
 ## FASTEN Alignment with [NCIP][NCIP]
 
+## FASTEN Alignment with [OpenID][OID]
+
+Not applicable
+
+
 ## FASTEN Alignment with [ResourceSync][RS]
 
 [BEST_PRACTICES]: https://docs.google.com/spreadsheets/d/1iQrdLVUSCW-0FWlrKNGjZJkB8nPO5Z94pg1Ie8GIKhg/
 [NCIP]: http://www.ncip.info/
+[OID]:  https://openid.net/
 [RS]: http://www.openarchives.org/rs/toc
