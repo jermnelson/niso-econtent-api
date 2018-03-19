@@ -78,6 +78,10 @@
         
             <li><a class="toctree-l4" href="#fasten-alignment-with-ncip">FASTEN Alignment with NCIP</a></li>
         
+            <li><a class="toctree-l4" href="#fasten-alignment-with-openid">FASTEN Alignment with OpenID</a></li>
+        
+            <li><a class="toctree-l4" href="#fasten-alignment-with-resourcesync">FASTEN Alignment with ResourceSync</a></li>
+        
         </ul>
     
 
@@ -161,6 +165,14 @@ authentication</p>
     Problem response of <em>Required Item Use Restriction Type</em> or
     a <em>Required Fee Amount</em> </li>
 </ul>
+<h2 id="fasten-alignment-with-openid">FASTEN Alignment with <a href="https://openid.net/">OpenID</a></h2>
+<ul>
+<li>A <strong>GET</strong> request to the system with either a <code>code</code>, <code>token</code>, or <code>id_token</code> to an authorization
+    server will return a <code>access_token</code>, <code>token_type</code>, <code>id_token</code>, and an optional <code>expires_in</code>.
+    From this <a href="http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html#rfc.section.5">5. Definitions of Multiple-Valued Response Type Combinations</a>. If user is not authorized to access the resource, a <code>None</code> response is given.</li>
+</ul>
+<h2 id="fasten-alignment-with-resourcesync">FASTEN Alignment with <a href="http://www.openarchives.org/rs/toc">ResourceSync</a></h2>
+<p>Not applicable</p>
               
             </div>
           </div>
