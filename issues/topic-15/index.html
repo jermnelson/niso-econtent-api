@@ -80,6 +80,10 @@
         
             <li><a class="toctree-l4" href="#fasten-alignment-with-ncip">FASTEN Alignment with NCIP</a></li>
         
+            <li><a class="toctree-l4" href="#fasten-alignment-with-lcf">FASTEN Alignment with LCF</a></li>
+        
+            <li><a class="toctree-l4" href="#fasten-alignment-with-bic-library-web-services">FASTEN Alignment with BIC Library Web Services</a></li>
+        
             <li><a class="toctree-l4" href="#fasten-alignment-with-openid">FASTEN Alignment with OpenID</a></li>
         
             <li><a class="toctree-l4" href="#fasten-alignment-with-resourcesync">FASTEN Alignment with ResourceSync</a></li>
@@ -163,6 +167,22 @@ context as a BIBFRAME Item).</p>
    with a [NISO][NISO] User Id or Authentication Input and an Item Id<br />
    returns an <em>Item Id</em>, <em>User id</em>, and ether a <em>Date Due</em>, <em>Indeterminate Loan Period Flag</em>, or <em>Non Returnable Flag</em>. </li>
 </ul>
+<h2 id="fasten-alignment-with-lcf">FASTEN Alignment with <a href="http://www.bic.org.uk/114/Library-Communications-Framework-(LCF)/">LCF</a></h2>
+<p>(See <a href="https://github.com/anthonywhitford/bic-lcf/wiki/LCF-1.0.1-REST-Web-Service-Specification#11-check-out--renewal">11 Check-out / Renewal</a>)</p>
+<p>A new check-out is performed by creating a new loan record, using LCF function 03 (see above), e.g.</p>
+<pre><code>POST http://192.168.0.99:80/lcf/1.0/loans
+</code></pre>
+
+<p>An XML document that conforms to the XML schema for a loan entity (E05) must be uploaded with the request.</p>
+<p>The response to a check-out or renewal may be the same response as for creating any entity, i.e. 
+status code 201 (Created) and a Location field in the HTTP header, or it may contain an XML payload,e.g.</p>
+<pre><code>&lt;lcf-check-out-response xmlns=&quot;http://ns.bic.org/lcf/1.0&quot;&gt;
+ &lt;loan-ref&gt;http://192.168.0.99:80/lcf/1.0/loans/1234567890&lt;/loan-ref&gt;
+ &lt;sensitive-media-warning&gt;00&lt;/sensitive-media-warning&gt;
+&lt;/lcf-check-out-response&gt;`
+</code></pre>
+
+<h2 id="fasten-alignment-with-bic-library-web-services">FASTEN Alignment with <a href="http://www.bic.org.uk/files/pdfs/Library%20Web%20Services%20TandFWG%20Project%20Brief_Final%20v.1.1.pdf">BIC Library Web Services</a></h2>
 <h2 id="fasten-alignment-with-openid">FASTEN Alignment with <a href="https://openid.net/">OpenID</a></h2>
 <p>Not applicable</p>
 <h2 id="fasten-alignment-with-resourcesync">FASTEN Alignment with <a href="http://www.openarchives.org/rs/toc">ResourceSync</a></h2>
