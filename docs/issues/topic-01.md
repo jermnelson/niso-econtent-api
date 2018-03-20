@@ -14,6 +14,13 @@ or aggregator site.
     data by requesting agent. Aligns with [NCIP][NCIP] 
     [5.3.2 Lookup Item Service](http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=8)
 
+
+## FASTEN Alignment with [LCF][LCF]
+
+Could be inplemented via an extension to the [E04 LOCATION record](https://github.com/anthonywhitford/bic-lcf/wiki/LCF-1.0.1-Information-Entity-XML-bindings#e04-location)
+
+## FASTEN Alignment with [BIC Library Web Services][BICWS]
+
 ## FASTEN Alignment with [OpenID][OID]
 
 Not applicable
@@ -28,4 +35,6 @@ Not applicable
 [OID]:  https://openid.net/
 [NCIP]: http://www.ncip.info/ 
 [RS]: http://www.openarchives.org/rs/toc
+[LCF]: http://www.bic.org.uk/114/Library-Communications-Framework-(LCF)/
+[BICWS]: http://www.bic.org.uk/files/pdfs/Library%20Web%20Services%20TandFWG%20Project%20Brief_Final%20v.1.1.pdf
 
