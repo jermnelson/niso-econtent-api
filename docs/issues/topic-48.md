@@ -8,6 +8,13 @@ is updated.
 
 ## FASTEN Alignment with [NCIP][NCIP]
 
+## FASTEN Alignment with [LCF][LCF]
+
+POST to update E03D26 barcode-id in [E03 Patron](https://github.com/anthonywhitford/bic-lcf/wiki/LCF-1.0.1-Information-Entity-XML-bindings#e03-patron) entity (XML data)
+
+## FASTEN Alignment with [BIC Library Web Services][BICWS]
+
+
 ## FASTEN Alignment with [OpenID][OID]
 
 Not applicable
@@ -20,4 +27,6 @@ Not applicable
 [NCIP]: http://www.ncip.info/ 
 [OID]: https://openid.net/
 [RS]: http://www.openarchives.org/rs/toc
+[LCF]: http://www.bic.org.uk/114/Library-Communications-Framework-(LCF)/
+[BICWS]: http://www.bic.org.uk/files/pdfs/Library%20Web%20Services%20TandFWG%20Project%20Brief_Final%20v.1.1.pdf
 

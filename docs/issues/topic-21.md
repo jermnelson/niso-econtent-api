@@ -11,6 +11,12 @@ there's no potential for abuse.
     data is restricted to outputs defined in 
     [5.3.4 Lookup User Service](http://www.ncip.info/uploads/7/1/4/6/7146749/z39-83-1-2012_ncip.pdf#page=10). 
 
+## FASTEN Alignment with [LCF][LCF]
+
+GET request to return [E03 Patron](https://github.com/anthonywhitford/bic-lcf/wiki/LCF-1.0.1-Information-Entity-XML-bindings#e03-patron) entity (in XML)
+
+## FASTEN Alignment with [BIC Library Web Services][BICWS]
+
 ## FASTEN Alignment with [OpenID][OID]
 *   A **GET** request to the system with either a `code`, `token`, or `id_token` to an authorization
     server will return a `access_token`, `token_type`, `id_token`, and an optional `expires_in`.
@@ -24,4 +30,6 @@ Not applicable
 [OID]: https://openid.net/
 [NCIP]: http://www.ncip.info/ 
 [RS]: http://www.openarchives.org/rs/toc
+[LCF]: http://www.bic.org.uk/114/Library-Communications-Framework-(LCF)/
+[BICWS]: http://www.bic.org.uk/files/pdfs/Library%20Web%20Services%20TandFWG%20Project%20Brief_Final%20v.1.1.pdf
 

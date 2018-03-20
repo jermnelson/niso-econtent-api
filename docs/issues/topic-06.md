@@ -10,6 +10,10 @@ authentication
     Problem response of *Required Item Use Restriction Type* or
     a *Required Fee Amount* 
 
+## FASTEN Alignment with [LCF][LCF]
+
+## FASTEN Alignment with [BIC Library Web Services][BICWS]
+
 ## FASTEN Alignment with [OpenID][OID]
 
 *   A **GET** request to the system with either a `code`, `token`, or `id_token` to an authorization
@@ -23,4 +27,6 @@ Not applicable
 [OID]:  https://openid.net/
 [NCIP]: http://www.ncip.info/ 
 [RS]: http://www.openarchives.org/rs/toc
+[LCF]: http://www.bic.org.uk/114/Library-Communications-Framework-(LCF)/
+[BICWS]: http://www.bic.org.uk/files/pdfs/Library%20Web%20Services%20TandFWG%20Project%20Brief_Final%20v.1.1.pdf
 

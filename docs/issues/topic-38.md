@@ -15,6 +15,10 @@ friendliness of OPAC and Discovery layers.
 ## FASTEN Alignment with [NCIP][NCIP]
 Not applicable
 
+## FASTEN Alignment with [LCF][LCF]
+
+## FASTEN Alignment with [BIC Library Web Services][BICWS]
+
 ## FASTEN Alignment with [OpenID][OID]
 Not applicable
 
@@ -35,3 +39,5 @@ protocol, the FASTEN recommendation is to support the following REST verbs:
 [NCIP]: http://www.ncip.info/
 [OID]:  https://openid.net/
 [RS]: http://www.openarchives.org/rs/toc
+[LCF]: http://www.bic.org.uk/114/Library-Communications-Framework-(LCF)/
+[BICWS]: http://www.bic.org.uk/files/pdfs/Library%20Web%20Services%20TandFWG%20Project%20Brief_Final%20v.1.1.pdf
